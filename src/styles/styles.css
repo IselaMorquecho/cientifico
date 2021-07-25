@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
 
 body {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #3c484e;
+  background-color: #000000;
+  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,7 +16,11 @@ body {
 
 .Header a {
   text-decoration: none;
-  color: #15302C;
+  color: #ffffff;
+}
+
+.Header-separator {
+    margin-bottom: 40px;
 }
 
 .Main {
@@ -53,7 +57,7 @@ body {
 .Characters-card img {
   width: 100%;
   height: auto;
-  border-radius: 5px 5px 0 0;
+  border-radius: 15px 15px 10px 10px;
 }
 
 .Characters-card h2 {
@@ -82,7 +86,7 @@ body {
 .Characters-item img {
   width: 100%;
   height: auto;
-  border-radius: 5px 5px 0 0;
+  border-radius: 50px 10px 50px 10px;
 }
 
 .Characters-item h2 {
@@ -90,12 +94,12 @@ body {
   font-weight: 300;
   padding: 5px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .Characters-item a {
-  text-decoration: none;
-  color: #026C86;
+  text-decoration: overline;
+  color: #edf3f5;
 }
 
 @keyframes fade {

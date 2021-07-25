@@ -3,7 +3,7 @@ const Header = () => {
         <div class="Header-main">
             <div class="Header-logo">
                 <h1>
-                    <a href="/">
+                    <a href="/cientifico/">
                         100tifi.co
                     </a>
                 </h1>
@@ -14,7 +14,7 @@ const Header = () => {
                 </a>
             </div>
         </div>
-        
+        <hr class="Header-separator" width="80%">
     `
 
     return view
